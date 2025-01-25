@@ -10,7 +10,7 @@ const Computers = ({ isMobile }) => {
     <mesh>
       {/* Create a mesh component to render the 3D model */}
       <hemisphereLight intensity={1} groundColor="black" />
-      <pointLight intensity={.95} />
+      <pointLight intensity={1} />
       <spotLight
         visible
         position={[-20, 50, 10]}
