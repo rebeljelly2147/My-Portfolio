@@ -6,7 +6,7 @@ import Experience from "./components/Experience";
 import Tech from "./components/Tech";
 import Works from "./components/Works";
 import Contact from "./components/Contact";
-import { StarsCanvas } from "./components/canvas";
+// import { StarsCanvas } from "./components/canvas";
 import HireMe from "./components/HireMe";
 
 const App = () => {

@@ -28,13 +28,19 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            {/* personalInfo is an object containing my name and role */}
+            {/* Here I will add my name and &nbsp will add a space after my name */}
             {personalInfo.name} &nbsp;
-            <span className="lg:block hidden">| {personalInfo.role}</span>
+            <span className="lg:block hidden">
+              {" "}
+              | &nbsp; {personalInfo.role}
+            </span>
           </p>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
+            // Here I am mapping over the navLinks array and returning a list item for each link in the array
             <li
               key={link.id}
               className={`${

@@ -4,12 +4,13 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc/scene.gltf"); // Load the 3D model from the file path provided as an argument to useGLTF hook from drei package 
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
-      <pointLight intensity={1} />
+      {/* Create a mesh component to render the 3D model */}
+      <hemisphereLight intensity={1} groundColor="black" />
+      <pointLight intensity={.95} />
       <spotLight
         visible
         position={[-20, 50, 10]}
@@ -19,7 +20,7 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive
+      <primitive // Render the 3D model using the primitive component
         object={computer.scene}
         scale={isMobile ? 0.65 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
