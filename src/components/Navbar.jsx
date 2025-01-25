@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets";
