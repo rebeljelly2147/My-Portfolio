@@ -337,9 +337,9 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "Shridhar",
-  fullName: "Shridhar Rai",
-  email: "raishridhar619@gmail.com",
+  name: "Abhishek Singh",
+  fullName: "Abhishek Singh",
+  email: "abhishek100503@gmail.com",
   role: "Software Developer",
   about: `I'm a skilled software developer with experience in TypeScript and
   JavaScript, and expertise in frameworks like React.Js, React-naitve,
@@ -358,12 +358,12 @@ const publicUrls = {
   socialProfiles: {
     linkedin: {
       title: "linkedin",
-      link: "https://www.linkedin.com/in/shridharrai/",
+      link: "https://www.linkedin.com/in/abhishek-singh-raka/",
       icon: linkedIn,
     },
     github: {
       title: "github",
-      link: "https://github.com/shridharrai",
+      link: "https://github.com/rebeljelly2147",
       icon: github,
     },
   },
