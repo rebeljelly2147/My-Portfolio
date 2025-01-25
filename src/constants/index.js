@@ -337,7 +337,7 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "Abhishek Singh",
+  name: "Abhishek",
   fullName: "Abhishek Singh",
   email: "abhishek100503@gmail.com",
   role: "Software Developer",
