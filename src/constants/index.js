@@ -251,9 +251,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "2012-20 ",
     points: [
-      "",
-      "",
-      "",
+      // "",
     ],
   },
 
@@ -265,9 +263,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: " 2007-2012  ",
     points: [
-      "",
-      "",
-      "",
+      // "",
     ],
   },
   
