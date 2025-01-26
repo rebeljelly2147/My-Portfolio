@@ -1,4 +1,4 @@
-# 3D Portfolio Website
+# MY 3D Portfolio Website
 
 ![3D Portfolio](src/assets/image.png)
 <!-- ![3D Portfolio](https://github.com/shridharrai/3D-Portfolio/assets/50835817/78d803d6-aaaf-492c-bf2a-30881e32bcf0) -->
