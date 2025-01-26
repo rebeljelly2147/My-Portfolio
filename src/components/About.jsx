@@ -44,6 +44,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         {personalInfo.about}
+        {/* // I am a passionate and innovative web developer with a keen interest in creating user-friendly and visually appealing web applications. */}
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

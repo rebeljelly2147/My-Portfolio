@@ -60,11 +60,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    // title: "React Native Developer",
+    title: "Next JS Developer",
     icon: mobile,
   },
   {
-    title: "NodeJs Developer",
+    title: "Node Js Developer",
     icon: backend,
   },
   {
@@ -342,7 +343,7 @@ const personalInfo = {
   email: "abhishek100503@gmail.com",
   role: "Software Developer",
   about: `I'm a skilled software developer with experience in TypeScript and
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
+  JavaScript, and expertise in frameworks like React.Js, Next.js,
   Node.js etc. I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
   real-world problems. Let's work together to bring your ideas to life!`,
