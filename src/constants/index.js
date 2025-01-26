@@ -227,7 +227,7 @@ const experiences = [
     title: "B.tech Student at DTU",
     // company_name: "Self-employed",
     company_name: "Dept. of Electrical Engineering",
-    company_website: "https://proximus.surge.sh/index.html",
+    company_website: "https://dtu.ac.in/",
     // icon: proximus,
     icon: dtu,
     iconBg: "#E6DEDD",
