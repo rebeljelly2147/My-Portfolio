@@ -3,8 +3,10 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+
 import github from "./github.png";
 import linkedIn from "./linkedIn.png";
+
 import menu from "./menu.svg";
 import close from "./close.svg";
 import demo from "./demo.png";
@@ -23,11 +25,15 @@ import angular from "./tech/angular.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+
 import crmnext from "./company/crmnext.png";
 import nickelfox from "./company/nickelfox.png";
 import newgen from "./company/newgen.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
+import dtu from "./company/dtu.png";
+import mpvmgg from "./company/mpvmgg.png";
+import regs from "./company/regs.png";
 
 import aptihealthWeb from "./projects/aptihealthWeb.png";
 import aptihealthApp from "./projects/aptihealthApp.png";
@@ -35,6 +41,7 @@ import zealWeb from "./projects/zealWeb.png";
 import zealApp from "./projects/zealApp.png";
 import rollWeb from "./projects/rollWeb.png";
 import rollApp from "./projects/rollApp.png";
+import kalrav from "./projects/kalrav.png";
 
 export {
   logo,
@@ -42,11 +49,14 @@ export {
   creator,
   mobile,
   web,
+
   github,
   linkedIn,
+
   demo,
   menu,
   close,
+
   css,
   git,
   html,
@@ -61,15 +71,21 @@ export {
   redux,
   tailwind,
   typescript,
+
   crmnext,
   nickelfox,
   newgen,
   skillrisers,
   proximus,
+  dtu,
+  mpvmgg,
+  regs,
+
   aptihealthWeb,
   aptihealthApp,
   zealWeb,
   zealApp,
   rollWeb,
   rollApp,
+  kalrav,
 };
