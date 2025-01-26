@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
@@ -17,7 +17,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm{" "}
+            H!, I'm{" "}
             <span className="text-electric-purple">{personalInfo.name}</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
@@ -32,10 +32,10 @@ const Hero = () => {
       <div className="absolute xs:bottom-2 bottom-12 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.div
-              animate={{ y: [0, 24, 0] }}
+            <motion.div // Create a motion div component to animate the arrow icon
+              animate={{ y: [0, 24, 0]   }} // this value is the animation values for the y-axis and opacity
               transition={{
-                duration: 1.5, // this value is the duration of the animation
+                duration: 2.5, // this value is the duration of the animation in seconds
                 repeat: Infinity, // this value is the number of times the animation will repeat
                 repeatType: "loop", // this rever
               }}
