@@ -22,7 +22,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             Innovative {personalInfo.role}, <br className="sm:block hidden" />
-            building user interfaces and web applications
+            creating user-friendly and visually appealing web applications
           </p>
         </div>
       </div>
