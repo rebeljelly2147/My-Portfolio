@@ -1,4 +1,3 @@
-import React from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
@@ -19,6 +18,8 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             H!, I&apos;m{" "}
             <span className="text-electric-purple">{personalInfo.name}</span>
+            <br />
+            Wishing you all the veryy best 🔥
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             A passionate{personalInfo.role}, <br className="sm:block hidden" />
