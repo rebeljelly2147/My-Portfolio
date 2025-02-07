@@ -19,7 +19,6 @@ const Hero = () => {
             H!, I&apos;m{" "}
             <span className="text-electric-purple">{personalInfo.name}</span>
             <br />
-            Wishing you all the veryy best 🔥
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             A passionate{personalInfo.role}, <br className="sm:block hidden" />
@@ -34,7 +33,7 @@ const Hero = () => {
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div // Create a motion div component to animate the arrow icon
-              animate={{ y: [0, 24, 0]   }} // this value is the animation values for the y-axis and opacity
+              animate={{ y: [0, 24, 0] }} // this value is the animation values for the y-axis and opacity
               transition={{
                 duration: 2.5, // this value is the duration of the animation in seconds
                 repeat: Infinity, // this value is the number of times the animation will repeat
