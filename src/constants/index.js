@@ -459,7 +459,7 @@ const projects = [
     image: kalrav,
     // image: rollApp,
     hosted_link:
-      "https://kalrav.vercel.app/",
+      "https://kalrav.vercel.app/login",
   },
   // {
   //   name: " ",
