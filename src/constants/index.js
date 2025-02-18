@@ -459,7 +459,7 @@ const projects = [
     image: kalrav,
     // image: rollApp,
     hosted_link:
-      "https://kalrav-the-chatapp.netlify.app/",
+      "https://kalrav-the-chatapp.netlify.app",
   },
   // {
   //   name: " ",
